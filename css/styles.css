@@ -3,6 +3,8 @@ body{
   background-color: #F5EDDC;
 }
 
+/* Perfume Image */
+
 img{
   width: 300px;
   height: 450px;
@@ -12,9 +14,7 @@ img{
   float: left;
 }
 
-.info{
-  z-index: 1;
-}
+/* Heading */
 
 .heading {
   font-size: xx-large;
@@ -22,11 +22,15 @@ img{
   font-family: 'Fraunces', serif;
 }
 
+/* Text Rendering 'PERFUME' */
+
 .perfume-text{
   font-family: 'Ibarra Real Nova', serif;
   letter-spacing: 3px;
   padding-bottom: 5px;
 }
+
+/* Div containing Title and Paragraph */
 
 .content-text{
   position: relative;
@@ -36,6 +40,8 @@ img{
   padding-left: 20px;
 }
 
+/* Paragraph Text */
+
 .content-para{
   color: hsl(228, 12%, 48%);
   font-family: Montserrat, sans-serif;
@@ -44,12 +50,17 @@ img{
   font-size: small;
 }
 
+/* Actual Price */
+
 .price-new {
   color: #3d8168;
   font-size: xx-large;
   font-family: 'Fraunces', serif;
   float: left;
 }
+
+
+/* Old Price */
 
 .price-old{
   position: relative;
@@ -60,10 +71,13 @@ img{
   color: hsl(228, 12%, 48%);
 }
 
+/* Div containers for all contents */
+
 .info{
   position: absolute;
   top: 120px;
   left: 370px;
+  z-index: 1;
 }
 
 .card-content-box{
@@ -77,6 +91,7 @@ img{
   z-index: -1;
 }
 
+/* Add To Cart Button */
 
 .addToCartBtn{
   position: relative;
