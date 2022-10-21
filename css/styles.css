@@ -86,6 +86,12 @@ img{
   font-weight: bold;
 }
 
+.addtoCartBtn: hover{
+  background-color: dark-green;
+  
+  
+}
+
 .bi-cart3{
   padding-right: 15px;
   font-weight: bolder;
