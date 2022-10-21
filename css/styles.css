@@ -12,6 +12,10 @@ img{
   float: left;
 }
 
+.info{
+  z-index: 1;
+}
+
 .heading {
   font-size: xx-large;
   color: black;
@@ -84,6 +88,7 @@ img{
   left: 20px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
+  z-index: 2;
 }
 
 
