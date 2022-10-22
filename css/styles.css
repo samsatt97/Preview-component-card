@@ -93,7 +93,7 @@ img{
 
 /* Add To Cart Button */
 
-.addToCartBtn{
+.btn-primary{
   position: relative;
   background-color: #3d8168;
   color: white;
@@ -104,12 +104,16 @@ img{
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   z-index: 2;
+  border-radius: 5px;
+  --bs-btn-hover-bg: #0d543a
 }
 
-
-.btnIcon{
-  padding-right: 15px;
+.cartIcon{
+  padding-right: 5px;
   font-weight: bolder;
+  width: 25px;
+  height: 17px;
+  z-index: 3;
 } 
 
 
