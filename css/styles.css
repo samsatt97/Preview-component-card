@@ -1,6 +1,9 @@
 
 body{
   background-color: #F5EDDC;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 /* Perfume Image */
