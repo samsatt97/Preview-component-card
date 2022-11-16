@@ -4,46 +4,50 @@ body{
   min-height: 100vh;
   display: grid;
   place-content: center;
+  z-index: -3;
 }
 
-/* Perfume Image */
+main{
+  height: 450px;
+  width: 580px;
+  z-index: 1;
+}
 
-img{
-  width: 300px;
+.card-img{
+  width: 280px;
   height: 450px;
   border-radius: 15px 0 0 15px;
   position: relative;
-  right: 15px;
   float: left;
+  margin: 0%;
 }
-
-/* Heading */
 
 .heading {
   font-size: xx-large;
   color: black;
   font-family: 'Fraunces', serif;
+  position: relative;
+  bottom: 410px;
+  padding: 0 25px 0 15px;
 }
-
-/* Text Rendering 'PERFUME' */
 
 .perfume-text{
   font-family: 'Ibarra Real Nova', serif;
   letter-spacing: 3px;
   padding-bottom: 5px;
+  position: relative;
+  bottom: 425px;
+  left: 20px;
 }
 
-/* Div containing Title and Paragraph */
-
-.content-text{
+/* .content-text{
   position: relative;
   left: 25px;
-  padding-right: 75px;
+  bottom: 400px;
+  padding-right: 60px;
   padding-top: 20px;
   padding-left: 20px;
-}
-
-/* Paragraph Text */
+} */
 
 .content-para{
   color: hsl(228, 12%, 48%);
@@ -51,50 +55,43 @@ img{
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: small;
+  position: relative;
+  bottom: 405px;
+  padding: 0 25px 0 15px; 
 }
-
-/* Actual Price */
 
 .price-new {
   color: #3d8168;
   font-size: xx-large;
   font-family: 'Fraunces', serif;
   float: left;
+  position: relative;
+  bottom: 400px;
+  left: 15px;
+
 }
-
-
-/* Old Price */
 
 .price-old{
   position: relative;
-  left: 15px;
-  top: 10px;
+  left: 25px;
+  bottom: 390px;
   text-decoration-line: line-through;
   font-size: small;
   color: hsl(228, 12%, 48%);
 }
 
-/* Div containers for all contents */
-
-.info{
-  position: absolute;
-  top: 120px;
-  left: 370px;
-  z-index: 1;
-}
-
-.card-content-box{
-  width: 610px;
+.card-content{
+  width: 300px;
   height: 450px;
+  margin-right: 0%;
   position: relative;
-  /* left: 30px; */
+  left: 280px;
   border-radius: 0 15px 15px 0;
   padding: 10px 10px 10px 10px;
   background-color: white;
   z-index: -1;
 }
 
-/* Add To Cart Button */
 
 .btn-primary{
   position: relative;
@@ -104,6 +101,7 @@ img{
   width: 250px;
   height: 50px;
   left: 20px;
+  bottom: 380px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   z-index: 2;
@@ -118,7 +116,6 @@ img{
   height: 17px;
   z-index: 3;
 } 
-
 
 /* .footer-div{
   position: absolute;
