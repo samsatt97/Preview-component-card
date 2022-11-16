@@ -24,7 +24,7 @@ main{
 
 .heading {
   font-size: xx-large;
-  color: black;
+  color: hsl(0, 0%, 0%);
   font-family: 'Fraunces', serif;
   position: relative;
   bottom: 410px;
@@ -88,7 +88,7 @@ main{
   left: 280px;
   border-radius: 0 15px 15px 0;
   padding: 10px 10px 10px 10px;
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   z-index: -1;
 }
 
@@ -96,7 +96,7 @@ main{
 .btn-primary{
   position: relative;
   background-color: #3d8168;
-  color: white;
+  color: hsl(0, 0%, 100%);
   border: 0px;
   width: 250px;
   height: 50px;
