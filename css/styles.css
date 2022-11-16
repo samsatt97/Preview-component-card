@@ -27,7 +27,8 @@ main{
   color: hsl(0, 0%, 0%);
   font-family: 'Fraunces', serif;
   position: relative;
-  bottom: 410px;
+  left: 10px;
+  top: 15px;
   padding: 0 25px 0 15px;
 }
 
@@ -36,8 +37,8 @@ main{
   letter-spacing: 3px;
   padding-bottom: 5px;
   position: relative;
-  bottom: 425px;
-  left: 20px;
+  top: 5px;
+  left: 30px;
 }
 
 /* .content-text{
@@ -56,36 +57,39 @@ main{
   padding-bottom: 5px;
   font-size: small;
   position: relative;
-  bottom: 405px;
+  left: 10px;
+  top: 25px;
   padding: 0 25px 0 15px; 
 }
 
 .price-new {
+
   color: #3d8168;
   font-size: xx-large;
   font-family: 'Fraunces', serif;
   float: left;
   position: relative;
-  bottom: 400px;
-  left: 15px;
+  left: 25px;
+  top: 50px;
 
 }
 
 .price-old{
+
   position: relative;
-  left: 25px;
-  bottom: 390px;
+  left: 35px;
+  top: 55px;
   text-decoration-line: line-through;
   font-size: small;
   color: hsl(228, 12%, 48%);
+
 }
 
 .card-content{
   width: 300px;
   height: 450px;
-  margin-right: 0%;
-  position: relative;
-  left: 280px;
+  position: absolute;
+  left: 700px;
   border-radius: 0 15px 15px 0;
   padding: 10px 10px 10px 10px;
   background-color: hsl(0, 0%, 100%);
@@ -101,7 +105,7 @@ main{
   width: 250px;
   height: 50px;
   left: 20px;
-  bottom: 380px;
+  top: 65px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   z-index: 2;
